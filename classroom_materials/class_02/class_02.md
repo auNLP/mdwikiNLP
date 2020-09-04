@@ -1,19 +1,49 @@
-# Class 2: Basic Packages and Modules
-**The plan for the class is still a work in progress.**
+# Class 2: Preprocessing, Counts, and Collocations 
 
 
 ### TL:DR
  - Required:
    - Download the Danish and English model for Stanza prior to class
-   - Mak sure you have joined the Element forum (Matrix)
+   - Make sure you have joined the Element forum (Matrix)
    - Make sure you have everything set up from [class 1](classroom_materials/class_01/class_01.md)
- - Highly recommended:
-   - GitHub and VS Code:
+ - Required if not familiar with these:
+   - GitHub:
      - Watch the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi)
      - Set up a GitHub with your studygroup and discover/resolve any issues you might have
    - Live Share
      - Watch video: [Live Share with Visual Studio Code](https://www.youtube.com/watch?v=8Ck2QhMxAYg)
      - Set up a live share session with your studygroup and discover/resolve any issues you might have
+ - Recommended: 
+   - Read the paper on [stanza](https://arxiv.org/abs/2003.07082) (6 pages)
+   - Look into regular expressions for example [this 5 minute video](https://www.youtube.com/watch?v=UQQsYXa1EHs) or [this 6 minute read](https://medium.com/better-programming/introduction-to-regex-8c18abdd4f70)
+
+
+---
+
+## Plan for Class
+
+In this class and the following we will build a `Text` class in Python which contains a which will be able to extract a variety of feautures from text. These include:
+- sentence segmentation
+- tokenization
+- n-grams
+- Token frequencies
+- Outputting to dataframe
+- Lemmatization *using Stanza*
+- Part-of-Speech (POS) *tagging using Stanza*
+- Named Entity Recognition (NER) *using regular expressions*
+
+The class will also introduce some introduction to the module `os` for navigating your operating system.
+
+
+## Class Competition
+This class (and the following) will also include a small competition for the experienced users or for those who likes a challenge. I will try to make these throughout the classes so that the experienced user have something to work on. These will be development on utility tools. The winner will be decided on by the reminder of the class and the winner in most categories will be crowned as the NLP Champion!
+
+For the first challenge is who can make the best function for visualizing word frequencies. Things you might consider:
+Should the plot be interactive?
+Should there be multiple plots?
+How well does it deal with n-grams?
+How should I make the function to make it easy for my fellow students to use?
+
 
 ---
 
@@ -31,7 +61,7 @@ stanza.download('da')
 ```
 
 ## Github with Visual Studio Code
-So instead of spending time in introducing GitHub in class. I recommend everyone check out the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi). It should go over the most important aspects. I recommmend you also try creating a GitHub with your studygroup and spent time resolving any issues. For a *much more* extensive introduction see this [video](https://www.youtube.com/watch?v=RGOj5yH7evk). 
+So instead of spending time in introducing GitHub in class. I recommend everyone check out the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi). Note that the last video gives a couple of shorthands for creating and cloning repositories which are very convenient. I recommmend you also try creating a GitHub with your studygroup and spent time resolving any issues. For a *much more* extensive introduction see this [video](https://www.youtube.com/watch?v=RGOj5yH7evk).
 
 
 As always you are free to use git however you like just so long that you are able to collaborate with your studygroup online. This is important given that future classes might end up taking place online due to Covid-19. 
@@ -48,17 +78,6 @@ So instead of spending time in introducing Live Share in class. I recommend ever
 
 As always you are free to not use Live Share just so long that you are able to collaborate with your studygroup online. This is important given that future classes might end up taking place online due to Covid-19.
 
----
-
-## Plan for Class
-**The plan for the class is still a work in progress.**
-
-- (~10 minutes) Any general issues we need to tackle?
-  - Have everyone joined Element?
-  - General issues with git?
-  - General issue with VS Code?
-  - General issues with Python and packages?
-- 
 ---
 
 ## Materials used in Class

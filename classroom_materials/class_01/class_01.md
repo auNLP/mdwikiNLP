@@ -1,5 +1,4 @@
 # Class 1: Introduction and Setup
-This class will focus on setting everything up for the semester, thus is it extremely important you do the setup before class. If there is any issues this will be the class where we have the time to deal with them.
 
 ### TL:DR
  - Install/update anaconda
@@ -7,6 +6,24 @@ This class will focus on setting everything up for the semester, thus is it extr
  - Install git and make a GitHub account
 
 The above are not mandatory, but recommended for following the course
+
+---
+
+
+## Plan for Class
+This class will focus on setting everything up for the semester, thus is it extremely important you do the setup before class. If there is any issues this will be the class where we have the time to deal with them.
+
+1.  [setup a virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/), but feel free to do it beforehand see setup guide below
+2. We will install the required packages, again feel free to do it beforehand see below
+3. Look at VS code so everyone is familiar with the setup
+4. We will make sure everyone reacquaint themselves with using git for version control (in the context of VS code)
+5. If we have the time run example code on Zipf’s Law which will include
+    1. General idea of how we process language
+    2. Introduction to python script structure
+    3. Introduction to the use of VS Code in a workflow
+    4. Look into linguistic feature which might be relevant for predicting a bestseller?
+        1. Word frequency and inverse word frequency
+        2. The use of “the”?
 
 ---
 
@@ -70,21 +87,6 @@ where packagename in name of the package. Note that all of the packages listed b
 |**Other**| |
 |flake8 | (a linter for python, i.e. an code spell checker) |
 
----
-
-
-## Plan for Class
-1.  [setup a virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/), but feel free to do it beforehand see setup guide below
-2. We will install the required packages, again feel free to do it beforehand see below
-3. Look at VS code so everyone is familiar with the setup
-4. We will make sure everyone reacquaint themselves with using git for version control (in the context of VS code)
-5. If we have the time run example code on Zipf’s Law which will include
-    1. General idea of how we process language
-    2. Introduction to python script structure
-    3. Introduction to the use of VS Code in a workflow
-    4. Look into linguistic feature which might be relevant for predicting a bestseller?
-        1. Word frequency and inverse word frequency
-        2. The use of “the”?
 
 
 
