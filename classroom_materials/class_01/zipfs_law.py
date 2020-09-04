@@ -19,8 +19,7 @@ def download_txt(url, name=None, write=True):
 
     # write content to a .txt file
     with open(name, 'w') as f:
-        f.write(r.content.decode("windows-1252"))
-
+        f.write(r.content.decode("windows-1252")
 
 def tokenize(txt, remove=string.punctuation, lowercase=True):
     for ch in ["\n", "\t", "\r"]:
