@@ -5,6 +5,7 @@
 ### TL:DR
  - Required:
    - Download the Danish and English model for Stanza prior to class
+   - Mak sure you have joined the Element forum (Matrix)
    - Make sure you have everything set up from [class 1](classroom_materials/class_01/class_01.md)
  - Highly recommended:
    - GitHub and VS Code:
@@ -30,10 +31,10 @@ stanza.download('da')
 ```
 
 ## Github with Visual Studio Code
-So instead of spending time in introducing GitHub in class. I recommend everyone check out Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi). It should go over the most important aspects. I recommmend you also try creating a GitHub with your studygroup and spent time resolving any issues. 
+So instead of spending time in introducing GitHub in class. I recommend everyone check out the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi). It should go over the most important aspects. I recommmend you also try creating a GitHub with your studygroup and spent time resolving any issues. For a *much more* extensive introduction see this [video](https://www.youtube.com/watch?v=RGOj5yH7evk). 
 
 
-As always you are free to use git however you like just so long that you are able to collaborate with your studygroup online. This is important given that future classes might end up taking place online due to Covid-19.
+As always you are free to use git however you like just so long that you are able to collaborate with your studygroup online. This is important given that future classes might end up taking place online due to Covid-19. 
 
 
 ## Live Share with Visual Studio Code
@@ -52,7 +53,12 @@ As always you are free to not use Live Share just so long that you are able to c
 ## Plan for Class
 **The plan for the class is still a work in progress.**
 
-
+- (~10 minutes) Any general issues we need to tackle?
+  - Have everyone joined Element?
+  - General issues with git?
+  - General issue with VS Code?
+  - General issues with Python and packages?
+- 
 ---
 
 ## Materials used in Class
