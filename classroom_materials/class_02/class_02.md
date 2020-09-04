@@ -15,7 +15,8 @@
      - Set up a live share session with your studygroup and discover/resolve any issues you might have
  - Recommended: 
    - Read the paper on [stanza](https://arxiv.org/abs/2003.07082) (6 pages)
-   - Look into regular expressions for example [this 5 minute video](https://www.youtube.com/watch?v=UQQsYXa1EHs) or [this 6 minute read](https://medium.com/better-programming/introduction-to-regex-8c18abdd4f70)
+   - Look into regular expressions. For example [this 5 minute video](https://www.youtube.com/watch?v=UQQsYXa1EHs) or [this 6 minute read](https://medium.com/better-programming/introduction-to-regex-8c18abdd4f70)
+   - Set up a [linter](https://code.visualstudio.com/docs/python/linting), i.e. code spell-checker for VS code. I use flake8 but you can use any.
 
 
 ---
@@ -78,6 +79,10 @@ So instead of spending time in introducing Live Share in class. I recommend ever
 
 As always you are free to not use Live Share just so long that you are able to collaborate with your studygroup online. This is important given that future classes might end up taking place online due to Covid-19.
 
+
+## Code Spell-Checking
+In VS code you can use a code spell-checker called a linter which will help debug and write prettier code. I recommend enabling this especially when working in groups. It might however cause some initial frustration, but I promise you that your code will be more readable after. Companies typically mandate some kind of linter so getting it under your skin is recommended. You can set it up following [these instructions](https://code.visualstudio.com/docs/python/linting). I personally use and recommend flake8, but using any linter is fine. 
+
 ---
 
 ## Materials used in Class
@@ -85,11 +90,6 @@ As always you are free to not use Live Share just so long that you are able to c
 
 
 <!---
-This class is intended as an introduction to pandas and numpy as well 
-
-
-* re, os
-* pandas, numpy ?
-* python classes
 -->
+
 
