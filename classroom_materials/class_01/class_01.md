@@ -8,6 +8,7 @@ This class will focus on setting everything up for the semester, thus is it extr
 
 The above are not mandatory, but recommended for following the course
 
+---
 
 ## Anaconda
 We will be using the Anaconda Distribution for python. If you haven’t Installed it you can install it using their [website](https://docs.anaconda.com/anaconda/install)). If you have it installed it be sure to update it using the command:
@@ -33,19 +34,6 @@ I will be using [Visual Studio Code](https://code.visualstudio.com) (VS code) as
 ## Github
 We will be using GitHub for version control, please make a [GitHub account](https://github.com) before class and make sure you have [git](https://git-scm.com/downloads) installed on your machine. If you haven’t used GitHub before I recommend you take some time doing the [GitHub QuickStart](https://docs.github.com/en/github/getting-started-with-github/quickstart).
 
-
-## Plan for Class
-1.  [setup a virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/), but feel free to do it beforehand see setup guide below
-2. We will install the required packages, again feel free to do it beforehand see below
-3. Look at VS code so everyone is familiar with the setup
-4. We will make sure everyone reacquaint themselves with using git for version control (in the context of VS code)
-5. If we have the time run example code on Zipf’s Law which will include
-    1. General idea of how we process language
-    2. Introduction to python script structure
-    3. Introduction to the use of VS Code in a workflow
-    4. Look into linguistic feature which might be relevant for predicting a bestseller?
-        1. Word frequency and inverse word frequency
-        2. The use of “the”?
 
 
 ## The NLP virtual environment setup guide
@@ -82,17 +70,33 @@ where packagename in name of the package. Note that all of the packages listed b
 |**Other**| |
 |flake8 | (a linter for python, i.e. an code spell checker) |
 
+---
+
+
+## Plan for Class
+1.  [setup a virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/), but feel free to do it beforehand see setup guide below
+2. We will install the required packages, again feel free to do it beforehand see below
+3. Look at VS code so everyone is familiar with the setup
+4. We will make sure everyone reacquaint themselves with using git for version control (in the context of VS code)
+5. If we have the time run example code on Zipf’s Law which will include
+    1. General idea of how we process language
+    2. Introduction to python script structure
+    3. Introduction to the use of VS Code in a workflow
+    4. Look into linguistic feature which might be relevant for predicting a bestseller?
+        1. Word frequency and inverse word frequency
+        2. The use of “the”?
+
+
 
 ---
 
 ## Materials used in Class
 [Python script on Zipf's Law](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_01/zipfs_law.py)
- 
+
 [Question for script](classroom_materials/class_01/question_for_script.md)
 
 
 <!---
-github change for victor ;) 
 Personal Notes on lecture structure:
 
 1. Installation of Anaconda, VS code, and GitHub
