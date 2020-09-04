@@ -86,7 +86,8 @@ where packagename in name of the package. Note that all of the packages listed b
 ---
 
 ## Materials used in Class
-[Python script on Zipf's Law](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_01/zipfs_law.py) 
+[Python script on Zipf's Law](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_01/zipfs_law.py)
+ 
 [Question for script](classroom_materials/class_01/question_for_script.md)
 
 
