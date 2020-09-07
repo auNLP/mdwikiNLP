@@ -71,6 +71,9 @@ Lesson Plan
 
 
 [test](classroom_materials/class_02/class_test.md)
+[test2](classroom_materials/class_02/class_test.md)
+
+
 Troubleshooting and email policy
 ---------------------
 
