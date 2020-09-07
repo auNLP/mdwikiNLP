@@ -44,7 +44,7 @@ For a guide on downloading stanza models follow these step for a bit more contro
 - Open your python editor of choice
 - Run the following:
 
-```Python
+```
 import stanza
 stanza.download('en')
 stanza.download('da')

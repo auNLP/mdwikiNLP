@@ -19,3 +19,33 @@
    - Set up a [linter](https://code.visualstudio.com/docs/python/linting), i.e. code spell-checker for VS code. I use flake8 but you can use any.
 
 ---
+
+## Plan for Class
+
+In this class and the following we will build a `Text` class in Python which contains a which will be able to extract a variety of feautures from text. These include:
+- sentence segmentation
+- tokenization
+- n-grams
+- Token frequencies
+- Outputting to dataframe
+- Lemmatization *using Stanza*
+- Part-of-Speech (POS) *tagging using Stanza*
+- Named Entity Recognition (NER) *using regular expressions*
+
+The class will also introduce some introduction to the module `os` for navigating your operating system.
+
+
+---
+
+## Download models for Stanza
+Before class you should have downloaded the Danish and English model for Stanford's NLP library Stanza. If you don't have stanza installed see [class 1](classroom_materials/class_01/class_01.md).
+
+For a guide on downloading stanza models follow these step for a bit more control (or if you have any issues) see their online [guide](https://stanfordnlp.github.io/stanza/download_models.html):
+- Open your python editor of choice
+- Run the following:
+
+```Python
+import stanza
+stanza.download('en')
+stanza.download('da')
+```
