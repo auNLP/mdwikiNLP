@@ -70,9 +70,6 @@ Lesson Plan
 | 49   | [Poster instructions](posters.md) | Poster session 1        | Poster session 2       |   Final evaluation           |
 
 
-[test](classroom_materials/class_02/class_test.md)
-[test2](classroom_materials/class_02/class_test2.md)
-
 
 Troubleshooting and email policy
 ---------------------

@@ -44,11 +44,22 @@ For a guide on downloading stanza models follow these step for a bit more contro
 - Open your python editor of choice
 - Run the following:
 
-```Python
+```
 import stanza
 stanza.download('en')
 stanza.download('da')
 ```
+<!---
+should be:
+
+```python 
+import stanza
+stanza.download('en')
+stanza.download('da')
+```
+
+but python formatting intentionally left out as it breaks the page
+-->
 
 ## Github with Visual Studio Code
 So instead of spending time in introducing GitHub in class. I recommend everyone check out the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi). Note that the last video gives a couple of shorthands for creating and cloning repositories which are very convenient. I recommmend you also try creating a GitHub with your studygroup and spent time resolving any issues. For a *much more* extensive introduction see this [video](https://www.youtube.com/watch?v=RGOj5yH7evk).
