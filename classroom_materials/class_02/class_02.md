@@ -6,7 +6,7 @@
    - Download the Danish and English model for Stanza prior to class
    - Make sure you have joined the Element forum (Matrix)
    - Make sure you have everything set up from [class 1](classroom_materials/class_01/class_01.md)
- - Required if not familiar with these:
+ - Required if not familiar with these: 
    - GitHub:
      - Watch the Youtube series: [Using GitHub with Visual Studio Code](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi)
      - Set up a GitHub with your studygroup and discover/resolve any issues you might have
@@ -34,16 +34,6 @@ In this class and the following we will build a `Text` class in Python which con
 - Named Entity Recognition (NER) *using regular expressions*
 
 The class will also introduce some introduction to the module `os` for navigating your operating system.
-
-
-## Class Competition
-This class (and the following) will also include a small competition for the experienced users or for those who likes a challenge. I will try to make these throughout the classes so that the experienced user have something to work on. These will be development on utility tools. The winner will be decided on by the reminder of the class and the winner in most categories will be crowned as the NLP Champion!
-
-For the first challenge is who can make the best function for visualizing word frequencies. Things you might consider:
-Should the plot be interactive?
-Should there be multiple plots?
-How well does it deal with n-grams?
-How should I make the function to make it easy for my fellow students to use?
 
 
 ---
@@ -86,8 +76,8 @@ In VS code you can use a code spell-checker called a linter which will help debu
 ---
 
 ## Materials used in Class
-
-
+Python script with exercises: [text_preprocessor.py](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_02/text_processor.py)
+Python script with a Stanza example: [stanza_example.py](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_02/stanza_example.py)
 
 <!---
 -->
