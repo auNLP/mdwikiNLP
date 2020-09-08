@@ -90,3 +90,9 @@ Python script with exercises: [text_preprocessor.py](https://github.com/auNLP/md
 
 Python script with a Stanza example: [stanza_example.py](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_02/stanza_example.py)
 
+<!--
+Things to say before class
+- any questions on GitHub/Live share?
+- linting
+- go through exercise script
+-->
