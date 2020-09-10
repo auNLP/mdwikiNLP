@@ -16,8 +16,7 @@ I suggest you start from the top and for each function:
 for class 2 it would be ideal if you have a simple version of the following
 functions:
     sentence_segment
-    tokenize
-    n_grams
+    tokenize 
     ner_regex
 
 Additional stuff which you might add is:
