@@ -8,8 +8,6 @@
  - Required if not familiar:
    - Make sure you are familiar with python classes, either using [learnpython.org](https://www.learnpython.org/en/Classes_and_Objects) or using [this video](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
    - Make sure you are familiar with pandas dataframes, e.g. using [learnpython.org](https://www.learnpython.org/en/Pandas_Basics)
- - Highly recommended:
-   - 
  - Recommended: 
    - Download and set up [Kite](https://www.kite.com)
    - If you find your python skills challenged I would recommend watching [this video](https://www.youtube.com/watch?v=rfscVS0vtbw) or looking into [this free book](https://automatetheboringstuff.com)
