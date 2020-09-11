@@ -32,6 +32,9 @@ def sentence_segment(txt):
     """
     txt (str): Text which you want to be segmented into sentences.
 
+    hint: look up the re.split() function in the re module and 
+    and .split() method for strings.
+
     Example:
     >>> txt = "NLP is very cool. It is also useful"
     >>> sentence_segment(txt)
@@ -78,7 +81,8 @@ def ner_regex(sentence_list):
     This will result in how you can you can use it later on, but for now
     let's not dwell too much on this.
 
-    peforms named entity recognition using regular expressions
+    hint: look into the re package/module
+
     Example:
     >>> sent = [["Karl Friston is very cool"], ["Darwin is kick-ass"]]
     >>> ner_regex(sent)
@@ -110,6 +114,8 @@ def lemmatize_stanza(tokenlist):
     tokenlist (list): A list of tokens
 
     lemmatize a tokenlist using stanza
+
+    hint: examine the stanza_example.py script
     """
     pass
 
@@ -119,6 +125,8 @@ def postag_stanza(tokenlist):
     tokenlist (list): A list of tokens
 
     add a part-of-speech (POS) tag to each tokenlist using stanza
+
+    hint: examine the stanza_example.py script
     """
     pass
 
