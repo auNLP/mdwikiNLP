@@ -26,7 +26,7 @@ Additional stuff which you might add is:
     Add plotting functionality for word frequencies
     Add plotting functionality for dependency trees
 """
-
+import re
 
 def sentence_segment(txt):
     """
@@ -37,6 +37,7 @@ def sentence_segment(txt):
     >>> sentence_segment(txt)
     ["NLP is very cool", "It is also useful"]
     """
+    re.split('\.', txt)
     pass
 
 
@@ -56,6 +57,7 @@ def n_grams(tokenlist, n):
     """
     tokenlist (list): A list of tokens
     n (int): Indicate the n in n-gram. n=2 denotes bigrams
+    Indicate the n in n-gram. n=2 denotes bigrams
 
     creates n-grams from a given tokenlist
 
