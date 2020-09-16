@@ -13,7 +13,7 @@ J+M (3ed) Chapter 4, ["Naive Bayes and Sentiment Classification" pages 1-15, sec
 
 ## Group exercises 
 
-Part 1: Group Exercise
+Part 1: Practice Problems 
 We want to build a naive bayes sentiment classifier using add-1 smoothing, as described in the lecture (not binary naive bayes, regular naive bayes). Here is our training corpus:
 
 Training Set:
