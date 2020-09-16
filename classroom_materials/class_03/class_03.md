@@ -21,13 +21,17 @@ We will continue where we left of in the previous class.
   - Kite, what is it and why it might be useful
   - Script structure and importing functions
   - Introduction to the `Text` class and Pandas
-  - Group work on the 
+  - Group work on the `Text` class and functions
 
 before the next class (class 3) you should have finished the `Text` class and the functions:
-* `n_grams()`
-* `token_frequencies`
-* `lemmatize_stanza`
-* `postag_stanza`
+
+`n_grams()`
+
+`token_frequencies()`
+
+`lemmatize_stanza()`
+
+`postag_stanza()`
 
 
 ---
