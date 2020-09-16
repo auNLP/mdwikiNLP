@@ -10,6 +10,9 @@ Text classification & Sentiment
 ## Readings
 
 J+M (3ed) Chapter 4, ["Naive Bayes and Sentiment Classification" pages 1-15, sections 4.1 through 4.8](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
+Bo Pang, Lillian Lee, and Shivakumar Vaithyanathan. 2002. [Thumbs up? Sentiment Classification using Machine Learning Techniques](http://www.cs.cornell.edu/home/llee/papers/sentiment.pdf). EMNLP 2002, pages 79--86
+
+Note: Your HW2 is directly based on Pang et al's papers, so make sure to read and discuss with your Group! 
 
 ## Group exercises 
 
