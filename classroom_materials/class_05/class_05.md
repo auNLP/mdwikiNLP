@@ -49,7 +49,8 @@ In this class we will be doing classification using Naive Bayes. You have any ki
 ---
 
 ## Materials used in Class
-Will be updated
+[classification.py](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_05/classification.py)
+[classification_additional.ipynb](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_05/classification_additional.ipynb)
 
 <!--
 * imdb help
