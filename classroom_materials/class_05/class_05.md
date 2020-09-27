@@ -35,11 +35,11 @@ Scikit-learn contains a variety of Machine learning methods and while we in clas
 * [Support Vector Machines (SVM)](https://www.youtube.com/watch?v=efR1C6CvhmE). These fit into a larger group called kernel models and was the big machine learning thing before Neural networks had their breakthrough in 2012.
 * [Neural Network (NN)](https://www.youtube.com/watch?v=CqOfi41LfDw). As you probably know this is THE big thing currently and this video by know mean show the full complexity of it. If you are really interested in learning more about this I can suggest [this free online book](http://neuralnetworksanddeeplearning.com) by Michael Nielsen and if you want a more strict introduction you can also look into [the free deep learning book](https://www.deeplearningbook.org) from MIT press.
 * [Adaboost](https://www.youtube.com/watch?v=LsK-xG1cLYA). This was the initial introduction to a group of machine learning models called gradient boosting methods, which are still used today and typically perform very well with only little fine-tuning. The athors also won a Gödel prize for their work on this.
-  * [Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk). A incredible simple model with powerful use cases.
-  * [Naive Bayes (NB)](https://www.youtube.com/watch?v=O2L2Uv9pdDA). You know this, it is simply included here for completeness. Naive Bayes is the simplest classification solution derived from probability theory.
-  * [Gaussian Naive Bayes](https://www.youtube.com/watch?v=H3EjCKtlVog). An extension to NB
-  * [Logistic regression](https://www.youtube.com/watch?v=yIYKR4sgzI8). If you have used R and LMER for classification you have used logistic regression. It is very popular and is an adaption of linear regression to classification problems.
-  * [K-nearest Neigbors (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI). Quite a different approach to the other methods as this method does not learn, but infer from tagged data. 
+* [Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk). A incredible simple model with powerful use cases.
+* [Naive Bayes (NB)](https://www.youtube.com/watch?v=O2L2Uv9pdDA). You know this, it is simply included here for completeness. Naive Bayes is the simplest classification solution derived from probability theory.
+* [Gaussian Naive Bayes](https://www.youtube.com/watch?v=H3EjCKtlVog). An extension to NB
+* [Logistic regression](https://www.youtube.com/watch?v=yIYKR4sgzI8). If you have used R and LMER for classification you have used logistic regression. It is very popular and is an adaption of linear regression to classification problems.
+* [K-nearest Neigbors (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI). Quite a different approach to the other methods as this method does not learn, but infer from tagged data. 
 
 Note: Each of these method could affort their own lecture so don't see these video as the full picture, but they should give a good understanding of the general idea.
 
