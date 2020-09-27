@@ -49,7 +49,7 @@ In this class we will be doing classification using Naive Bayes. You have any ki
 ---
 
 ## Materials used in Class
-
+Will be updated
 
 <!--
 * imdb help
