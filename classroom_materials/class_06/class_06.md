@@ -2,7 +2,7 @@
 
 Note: Changes to this plan may occur
 
-Placeholder
+Placeholder. Will be up later this sunday.
 
 <!--
 * one-hot
