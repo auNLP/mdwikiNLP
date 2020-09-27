@@ -58,8 +58,8 @@ Lesson Plan
 | 37   | [Text processing](class2.md)      | [Preprocessing, Counts, and Collocations](classroom_materials/class_02/class_02.md) | [Study group exercises](class2.md)   | [Basic Python quiz](python.md) 		|
 | 38   | [Language modeling](class3.md)    | [Lemmatization and tagging](classroom_materials/class_03/class_03.md)| Ngrams			   | [HW1 Spamlord](https://classroom.github.com/g/HUL5pc63)|
 | 39   | [Classification I](class4.md)     | [Naive Bayes from scratch](classroom_materials/class_04/class_04.md)| NaiveBayes           |                        |
-| 40   | [Classification II](class5.md)    | Scikit-learn 			| 				       |[HW2 Sentiment](https://classroom.github.com/g/qUNponW_) |
-| 41   | [Information retrieval](class6.md)| Vectorization			| IR exercises  	   |                		|
+| 40   | [Classification II](class5.md)    | [Scikit-learn](classroom_materials/class_05/class_05.md) 			| 				       |[HW2 Sentiment](https://classroom.github.com/g/qUNponW_) |
+| 41   | [Information retrieval](class6.md)| [Vectorization](classroom_materials/class_06/class_06.md)			| IR exercises  	   |                		|
 | 42   | [Project prep](class_break.md)    | BREAK                  | BREAK                | BREAK                  |
 | 43   | [Vector semantics](class7.md)     | Embeddings				|                      | Project pitch   		|
 | 44   | [NER/Relation extraction + Deep Learning](class8.md) | Clustering         |  NER/RE exercises |
