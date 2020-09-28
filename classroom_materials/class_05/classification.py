@@ -64,4 +64,7 @@ if __name__ == "__main__":
     acc = sum(predictions == y_test) / len(y_test)
     print(f"Our model obtained a performance accuracy of {acc}")
 
-    # TASK 4: Where does the tokenization of the text happen in this script?
+    # TASK 4: Where does the tokenization of the text happen in this script
+    # and how would you change it to be your own tokenizer?
+    # TASK 5 (optional): Where would you change it to use n-grams?
+    # TASK 6 (optional): What about binary Naive bayes, stopword lists etc.
