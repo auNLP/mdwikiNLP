@@ -49,6 +49,10 @@ if __name__ == "__main__":
 
     # TASK 2: What does the shape of the X_train_counts denote
     print(X_train_counts.shape)
+    # hint 1 what do get if you run:
+    # bow = count_vect.transform(["this is a test"])
+    # bow.todense() <-- this right here transform the sparse matrix to a dense matrix
+    # hint 2: what is the shape of the dense matrix?
 
     # Train
     clf = MultinomialNB()
