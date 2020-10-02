@@ -32,7 +32,7 @@ def read_imdb():
             with open(filepath) as f:
                 text = f.read()
 
-            tag = path.split("/")[1]
+            tag = os.path.split(path)[1]
             imdb_files.append([tag, text])
     return pd.DataFrame(imdb_files, columns=["tag", "text"])
 
