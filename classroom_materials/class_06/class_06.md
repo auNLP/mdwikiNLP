@@ -1,7 +1,5 @@
 # Class 6: Scikit-learn and Vectorization
 
-Note: Changes to this plan may occur (but the required stuff will not change)
-
 
 ### TL:DR
  - Required:
