@@ -21,6 +21,8 @@
   - Vectorization (this is next week topic, but we will thouch upon it briefly)
 - Finding the best model
 
+
+
 ---
 
 ## Understanding Python Classes
