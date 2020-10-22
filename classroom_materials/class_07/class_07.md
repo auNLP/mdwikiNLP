@@ -6,15 +6,18 @@ Note: This lecture will take place on zoom at 8.15 using the meeting ID: 626 217
 ### TL:DR
  - Required:
    - Make sure you have zoom installed an working prior to the class
+   - make sure you have downloaded the Danish word embeddings before class. You might also be interested in downloading English the [word embedding](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) by Google if you want to examine them.
    - watch the first four videos in this [playlist](https://www.youtube.com/playlist?list=PLhWB2ZsrULv-wEM8JDKA1zk8_2Lc88I-s)
      - answer the three question for the videos prior to class (see the section: 'Playlist on Word Embeddings')
+  
  - Highly recommended:
-   -  watch the rest of the videos in the [playlist](https://www.youtube.com/playlist?list=PLhWB2ZsrULv-wEM8JDKA1zk8_2Lc88I-s)
+   - read this wonderful [article of Word2Vec](http://jalammar.github.io/illustrated-word2vec/)
  - Recommended:
+   -  watch the rest of the videos in the [playlist](https://www.youtube.com/playlist?list=PLhWB2ZsrULv-wEM8JDKA1zk8_2Lc88I-s)
+ - Optional
    - Read the paper on [Word2Vec](https://arxiv.org/abs/1310.4546) by T. Mikolov or see the [video reading](https://www.youtube.com/watch?v=yexR53My2O4) of the paper.
-- Optional
-  - Read up on the application of cross-lingual word embeddings for instance in machine translation without training data.
-  - Read up alternative techniques for word embeddings: GloVe [\[1\]](https://nlp.stanford.edu/pubs/glove.pdf) and fasttext [\[2\]](https://arxiv.org/abs/1607.04606), [\[3\]](https://arxiv.org/abs/1607.01759) [\[4\]](https://arxiv.org/abs/1612.03651)
+   - Read up on the application of cross-lingual word embeddings for instance in machine translation without training data.
+   - Read up alternative techniques for word embeddings: GloVe [\[1\]](https://nlp.stanford.edu/pubs/glove.pdf) and fasttext [\[2\]](https://arxiv.org/abs/1607.04606), [\[3\]](https://arxiv.org/abs/1607.01759) [\[4\]](https://arxiv.org/abs/1612.03651)
 
 ---
 
@@ -26,7 +29,7 @@ Prior to the class you should have some idea of what a word embedding is and wha
   - what is a word embedding?
 - Validation of word embeddings? Do they contain meaningful information?
   - With examples using Danish word embeddings
-- Use
+- How to train word embeddings using NN
 - (A short presentation on how word embedding can be used for an exam project)
 
 
@@ -51,7 +54,21 @@ For class you are expected to watch the first four videos in the [video series](
 Wish I had the time to go through Cross-lingual word embeddings. The idea is that you overlay word embeddings for two languages and then this act as a way of translating between languages. It is a really cool application of word embeddings so if you feel like digging into it I recommend this [podcast episode](https://soundcloud.com/nlp-highlights/57-a-survey-of-cross-lingual-word-embedding-models-with-sebastian-ruder) (in general this podcast is great). You can also watch Mannings PhD student give a [talk](https://www.youtube.com/watch?v=3wWZBGN-iX8&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=20) on how use word embeddings for translation without any training data.  
 
 
+## Download Danish Word embeddings:
+You can download the Danish word embeddings using: 
+```
+from danlp.models.embeddings  import load_wv_with_gensim
+word_embeddings = load_wv_with_gensim('conll17.da.wv')
+word_embeddings.save("word2vec.model")  # save it on your computer
+```
+There is also other versions of Danish word embedding available (e.g. one trained from wikipedia) these can be found on DaNLP's Github.
+
 ---
 
 ## Materials used in Class
 To be announced
+
+---
+## Related Material
+
+PyData talk: Beyond word2vec: GloVe, fastText, StarSpace - Konstantinos Perifanos ([link](https://www.youtube.com/watch?v=6xPnEh_tJEc))
