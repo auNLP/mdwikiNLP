@@ -159,21 +159,25 @@ lda_model = gensim.models.ldamodel.LdaModel(
 
 # 13. View the topics in LDA model
 # Print the Keyword in the 10 topics
-pprint(lda_model.print_topics())
+print(lda_model.print_topics())
 doc_lda = lda_model[corpus]
 
 # 14. Compute Model Perplexity and Coherence Score
 # Compute Perplexity
-print('\nPerplexity: ', lda_model.log_perplexity(corpus))  # a measure of how good the model is. lower the better.
+print(
+    "\nPerplexity: ", lda_model.log_perplexity(corpus)
+)  # a measure of how good the model is. lower the better.
 
 # Compute Coherence Score
-coherence_model_lda = CoherenceModel(model=lda_model, texts=data_lemmatized, dictionary=id2word, coherence='c_v')
+coherence_model_lda = CoherenceModel(
+    model=lda_model, texts=data_lemmatized, dictionary=id2word, coherence="u_mass"
+)
 coherence_lda = coherence_model_lda.get_coherence()
-print('\nCoherence Score: ', coherence_lda)
+print("\nCoherence Score: ", coherence_lda)
 
 
 # 15. Visualize the topics-keywords
 # Visualize the topics
 # pyLDAvis.enable_notebook()
 vis = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
-pyLDAvis.save_html(vis, 'lda.html')
+pyLDAvis.save_html(vis, "lda.html")

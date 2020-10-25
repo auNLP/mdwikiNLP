@@ -5,7 +5,7 @@ Note: This lecture will take place on zoom at 8.15 using the meeting ID: 314 159
 
 ### TL:DR
  - Required:
-    - Train a topic model following this [guide](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/), you have to do at least 1-13 (including), but I highly recommend going all the way to 17 (and while you are there why not read the rest 😉)
+    - Train a topic model following this [guide](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/), you have to do at least 1-13 (including), but I highly recommend going all the way to 17 (and while you are there why not read the rest 😉). If you do run the 14 change out the `c_v` coherence with `u_mass` for faster computation
  - Highly recommended:
    - watch this introduction the workings of [LDA](https://www.youtube.com/watch?v=T05t-SqKArY)
    - Bring your own data and even train the topic model on your own data before class
@@ -19,9 +19,9 @@ Note: This lecture will take place on zoom at 8.15 using the meeting ID: 314 159
 
 ## Plan for Class
 
-In this class we will examine Topic Modelling using Latent Dirichlet Allocation (LDA) not to be confused with Linear Discriminant Analysis. Before class you are expected to have trained your own topic model following this [guide] which will use `gensim`. Note that Scikit-Learn also have an implementation of LDA (see a guide [here](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730)), but Gensim have more built-in functionality and a broader array of options. This guide is mostly so that you get through the steps of training a topic model, I will focus more in 
+In this class we will examine Topic Modelling using Latent Dirichlet Allocation (LDA) not to be confused with Linear Discriminant Analysis. Before class you are expected to have trained your own topic model following this [guide] which will use `gensim`. Note that Scikit-Learn also have an implementation of LDA (see a guide [here](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730)), but Gensim have more built-in functionality and a broader array of options and alternative model implementations. This guide is mostly so that you get through the steps of training a topic model.
 
-During class we will
+During class we will instead focus on:
 - Discuss results obtained in the guide and any potential issues (short)
 - Examine how topic models are trained
 - Examining topics of topic models
@@ -31,6 +31,7 @@ During class we will
 
 *parenthesis denote potentially*
 
+Note: that if you run the  
 ---
 
 
