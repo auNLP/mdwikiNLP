@@ -22,6 +22,8 @@ Note: This lecture will take place on zoom at 8.15 using the meeting ID: 314 159
 In this class we will examine Topic Modelling using Latent Dirichlet Allocation (LDA) not to be confused with Linear Discriminant Analysis. Before class you are expected to have trained your own topic model following this [guide] which will use `gensim`. Note that Scikit-Learn also have an implementation of LDA (see a guide [here](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730)), but Gensim have more built-in functionality and a broader array of options and alternative model implementations. This guide is mostly so that you get through the steps of training a topic model.
 
 During class we will instead focus on:
+- Brief introduction to tagging software for exam projects
+  - Including text classification and sequence labeling
 - Discuss results obtained in the guide and any potential issues (short)
 - Examine how topic models are trained
 - Examining topics of topic models
