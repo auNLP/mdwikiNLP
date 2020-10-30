@@ -9,5 +9,6 @@ Neural Networks
 ## Read (optional / for reference) 
 
 [J+M Ch 7 - Neural Networks and Neural Language Models](https://web.stanford.edu/~jurafsky/slp3/7.pdf) 
+
 [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/) 
 
