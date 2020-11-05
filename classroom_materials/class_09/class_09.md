@@ -35,7 +35,8 @@ Why use PyTorch as opposed to Tensorflow with Keras? Naturally Keras is generall
 ---
 
 ## Materials used in Class
-(to be updated)
+[exercises.ipynb](https://github.com/auNLP/mdwikiNLP/blob/master/classroom_materials/class_09/exercise.ipynb)
+
 
 ---
 ## Related Material
