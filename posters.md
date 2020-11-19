@@ -8,7 +8,7 @@ Poster sessions
   
 ### Details
 
-0. Sign up for a presentation slot [here] by 8am Wednesday 25/11 (https://docs.google.com/spreadsheets/d/1rbSQU6927fSSNyg5xfSgWSUpIstiu0YUhaDi0ZsBCDs/edit#gid=0).
+0. Sign up for a presentation slot by 8am Weds 25/11 [here](https://docs.google.com/spreadsheets/d/1rbSQU6927fSSNyg5xfSgWSUpIstiu0YUhaDi0ZsBCDs/edit#gid=0).
 1. Your poster should explain the goal of your project, describe your datatsets and methodology used, and summarize any results (so far). 
 
 Note: Your project is not expected to be in finished form! The poster session is a great chance to get feedback for the final synposis.
