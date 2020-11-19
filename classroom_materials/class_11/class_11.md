@@ -13,3 +13,8 @@ We will start of by discussing:
 
 
 After this discussion we will move on to a help session for the reminder of the class.
+
+## Zoom
+https://aarhusuniversity.zoom.us/j/3141591711
+
+Meeting ID: 314 159 1711
