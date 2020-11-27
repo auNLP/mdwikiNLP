@@ -109,5 +109,7 @@ Here is a sample outline for your final report. There are different possible way
 
 The exam is an individual oral exam based on a written synopsis. The duration is 30 minutes including the student's presentation of the synopsis project, followed by dialogue with the examiners and assessment.
 
+[Exam schedule](https://studerende.au.dk/fileadmin/studerende.au.dk/Arts/Eksamen/Eksamensplaner/147_102_Kognitionsvidenskab__BA_Cognitive_science/Vinter/STUD_Kognitionsvidenskab_Eksamensplan_V20_21_261020.pdf)
+
 
 
